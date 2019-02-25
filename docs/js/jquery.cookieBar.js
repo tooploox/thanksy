@@ -48,7 +48,7 @@
 			'hideOnClose': true,
 			'secure': false,
 			'path': '/',
-			'domain': 'interaction.studio'
+			'domain': 'tooploox.github.io/thanksy/'
 		}, options);
 
 		return this.each(function () {
