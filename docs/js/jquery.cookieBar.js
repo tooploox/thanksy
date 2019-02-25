@@ -46,9 +46,9 @@
 		var settings = $.extend({
 			'closeButton': 'none',
 			'hideOnClose': true,
-			'secure': false,
+			'secure': true,
 			'path': '/',
-			'domain': 'tooploox.github.io/thanksy/'
+			'domain': 'tooploox.github.io'
 		}, options);
 
 		return this.each(function () {
