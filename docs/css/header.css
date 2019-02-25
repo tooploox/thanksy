@@ -1,0 +1,74 @@
+.header{
+  background-color: #ffffff;
+  width: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 40;
+  padding: 24px;
+  position: fixed;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.03);
+  display: none;
+}
+
+  @media only screen and (max-width: 600px) {
+    .header{
+      visibility: hidden;}
+  }
+
+.header__item.logo{
+  text-align: left;}
+
+.header__container img{
+  height: 20px;}
+
+.header__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;}
+
+.header__item{
+  width: 100%;}
+
+.header__item.share{
+  text-align: center;}
+
+.header__item .link__item{
+  margin: 0 10px;
+  font-size: 14px;
+  color: #000000;}
+
+  @media only screen and (max-width: 992px) {
+    .header__item .link__item{
+      display: block;
+      margin: 6px 0;}
+  }
+
+.header__item.github{
+  text-align: right;}
+
+.header__item .github{
+  background: linear-gradient(to right, #0039FF 0%, #52CCF4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  vertical-align: middle;}
+
+.header__item .github:hover{
+  transform: translate(0px, 0px);}
+
+.header__item .github span{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1px 4px 0 0;
+  height: 22px;
+  width: 22px;
+  background-size: 18px;
+  background-image: url(../assets/ico-download.svg);
+  background-repeat: no-repeat;}

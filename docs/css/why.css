@@ -155,7 +155,7 @@
   @media only screen and (max-width: 600px) {
     .why__item.buttons a{
       text-align: center;
-      width: 50%;
+      width: 100%; /* 50% when play button avaliable */
       line-height: 20px;
       font-size: 16px;}
 

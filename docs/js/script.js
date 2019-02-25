@@ -18,3 +18,13 @@ $(document).ready(function() {
   $('.cookie-message').cookieBar({ closeButton : '.my-close-button', hideOnClose: false });
   $('.cookie-message').on('cookieBar-close', function() { $(this).slideUp(); });
 });
+
+// Header apperence
+$(document).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll >= 640) {
+    $(".header").slideDown(400);
+  } else {
+    $(".header").slideUp(400);
+  }
+});
