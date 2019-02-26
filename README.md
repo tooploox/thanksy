@@ -6,8 +6,8 @@ We open-sourced our internal tool so everyone can send and receive a simple than
 All of that because we care about people.
 
 Check out [website](http://tooploox.github.io/thanksy) for more info
-Visit our [server code repository](http://tooploox.github.io/thanksy-server) for detailed installing instructions.
+Visit our [server code repository](https://github.com/tooploox/thanksy-server) for detailed installing instructions.
 
-You can also check out our [Typescript client code](http://tooploox.github.io/thanksy-server) or our [Elm client repository](http://tooploox.github.io/thanksy-server)
+You can also check out our [Typescript client code](https://github.com/tooploox/thanksy-client-ts) or our [Elm client repository](https://github.com/tooploox/thanksy-client-elm)
 
 ![thanksy](./docs/assets/bg-thanksy.svg)
