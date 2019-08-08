@@ -23,7 +23,8 @@
   text-align: center;
   max-width: 480px;
   font-weight: 600;
-  letter-spacing: 0.7;
+  letter-spacing: 0.7px;
+  line-height: 1.25;
   margin: 0 0 32px 0;}
 
   @media only screen and (max-width: 600px) {
