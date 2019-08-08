@@ -62,7 +62,8 @@
   font-size: 48px;
   line-height: 52px;
   font-weight: 600;
-  letter-spacing: 0.7;
+  letter-spacing: 0.7px;
+  line-height: 1.25;
   text-align: center;}
 
   @media only screen and (max-width: 992px) {
